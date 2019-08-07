@@ -93,7 +93,7 @@ Resources:
                 OAuthToken: !Ref GitHubOAuthToken
                 PollForSourceChanges: false
               RunOrder: 1
-        - Name: Deploy
+        - Name: DeployExplotado
           Actions:
             - Name: Pipeline
               RunOrder: 1
