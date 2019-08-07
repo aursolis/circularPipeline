@@ -112,7 +112,7 @@ Resources:
                 ParameterOverrides:
                   Fn::Sub: |
                     {
-                      "GithubOauthToken": "${GitHubOAuthToken}",
+                      "GitHubOAuthToken": "${GitHubOAuthToken}",
                       "GitHubSecret": "${GitHubSecret}"
                     }
               InputArtifacts:
