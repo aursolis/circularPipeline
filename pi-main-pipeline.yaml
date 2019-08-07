@@ -110,11 +110,11 @@ Resources:
                 TemplatePath: SourceOutput::pi-main-pipeline.yaml
                 RoleArn: arn:aws:iam::924474025577:role/aboutyoupipelinecase-CloudFormationRole-UMQ1RVPPELE0
                 ParameterOverrides:
-                Fn::Sub: |
-                  {
-                    "GithubOauthToken": "${GitHubOAuthToken}",
-                    "GitHubSecret": "${GitHubSecret}"
-                  }
+                  Fn::Sub: |
+                    {
+                      "GithubOauthToken": "${GitHubOAuthToken}",
+                      "GitHubSecret": "${GitHubSecret}"
+                    }
               InputArtifacts:
               - Name: SourceOutput
       ArtifactStore:
